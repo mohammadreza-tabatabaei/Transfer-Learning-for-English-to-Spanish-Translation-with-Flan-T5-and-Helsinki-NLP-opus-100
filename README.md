@@ -11,11 +11,6 @@ To run this project, you need to install the following Python packages:
 - datasets
 - rouge-score
 - nltk
-
-You can install them using pip:
-
-```bash
-pip install transformers tensorflow datasets rouge-score nltk
 ## Dataset
 The dataset used in this project is the **Helsinki-NLP/opus-100**, specifically the English-Spanish (en-es) subset. It contains parallel translation pairs in both languages, and is used to train and evaluate the translation model.
 
@@ -38,4 +33,11 @@ After training the model, we evaluate the translations using the following metri
 
 ## Results
 The model achieves competitive translation results, and the **ROUGE** and **BLEU** scores are used to evaluate the quality of the generated translations.
+
+
+You can install them using pip:
+
+```bash
+pip install transformers tensorflow datasets rouge-score nltk
+
 
